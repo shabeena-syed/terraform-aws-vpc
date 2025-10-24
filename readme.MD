@@ -44,3 +44,9 @@ this module creates resources in first 2AZ for its HA
 * vpc_peering_tags (optional) : default is empty . type is map
 
 ## OUTPUTS ##
+ * vpc_id : VPC ID
+ * public_subnet_ids : a list of 2 subnet IDS created.
+ * private_subnet_ids : a list of 2 subnet IDS created.
+ * database_subnet_ids : a list of 2 subnet IDS created.
+ * database_subnet_group_id : A database subnet group ID created.
+ 
