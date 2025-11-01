@@ -49,4 +49,5 @@ this module creates resources in first 2AZ for its HA
  * private_subnet_ids : a list of 2 subnet IDS created.
  * database_subnet_ids : a list of 2 subnet IDS created.
  * database_subnet_group_id : A database subnet group ID created.
+ * igw_id = internet gateway  created
  

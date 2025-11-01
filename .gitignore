@@ -1,0 +1,25 @@
+# Ignore Terraform local directories
+.terraform/
+.terraform.lock.hcl
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+
+# Ignore crash logs
+crash.log
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore VS Code workspace settings
+.vscode/
